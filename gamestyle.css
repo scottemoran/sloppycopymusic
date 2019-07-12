@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: pxsans;
+  src: url(fonts/px_sans_nouveaux.ttf);
+}
+
+body {
+  background-color: #232323;
+  height: 100%;
+}
+
+canvas {
+  width: 80vmin;
+  border: 10px solid #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none !important;
+}
+
+.noDecoration,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+button {
+  border: 2px solid;
+  margin: auto;
+  border-bottom-color: #444;
+  border-right-color: #444;
+  border-left-color: #a6a6a6;
+  border-top-color: #a6a6a6;
+  background-color: #bfbfbf;
+  font-size: 9px;
+  line-height: 0;
+  padding: 1px;
+  height: 45px;
+  width: 120px;
+}
+
+.controller {
+  border: 2px solid;
+  margin: auto;
+  border-bottom-color: #444;
+  border-right-color: #444;
+  border-left-color: #a6a6a6;
+  border-top-color: #a6a6a6;
+  background-color: #bfbfbf;
+  font-size: 9px;
+  line-height: 0;
+  padding: 1px;
+  height: 45px;
+  width: 45px;
+}
+
+.bevel-container {
+  margin-top: 25px;
+  padding: 5px;
+  text-align: center;
+  height: 55px;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 200px;
+  max-width: 250px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px;
+  border: 0px;
+  border-style: inset;
+  border-color: #fff;
+  box-shadow: 0 1px 2px #fff, /*bottom external highlight*/ 0 -2px 2px #666,
+    /*top external shadow*/ inset 0 -2px 2px rgba(0, 0, 0, 0.5),
+    /*bottom internal shadow*/ inset 0 2px 2px rgba(255, 255, 255, 0.8); /*top internal highlight*/
+}
+
+.center {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-keys {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  width: 220px;
+}
+
+h1 {
+  padding: 5px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-shadow: 2px 2px 8px pink;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: 3px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  color: #fff;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+h3 {
+  color: #000;
+  font-size: 12px;
+  font-family: pxsans;
+}
+
+h4 {
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+}
