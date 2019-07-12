@@ -356,6 +356,9 @@ li:active {
   position: relative;
   display: flex;
   align-content: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: pxsans;
 }
 
 button {
