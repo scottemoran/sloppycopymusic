@@ -357,6 +357,17 @@ li:active {
   text-decoration: none;
 }
 
+tr:hover {
+  background-color: turquoise;
+  text-decoration: none;
+}
+
+tr:active {
+  background-color: #232323;
+  color: turquoise;
+  text-decoration: none;
+}
+
 .icon {
   margin-right: 9px;
 }
