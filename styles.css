@@ -91,6 +91,13 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+
+  font-size: 11px;
+  font-style:italic;
+  color: blueviolet;
+}
+
 p {
   margin: 5px;
 }
@@ -121,6 +128,13 @@ td {
   text-align: left;
   padding: 8px;
 }
+
+
+.showstable {
+
+  font-size: 14px;
+}
+
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
