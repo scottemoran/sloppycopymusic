@@ -320,6 +320,21 @@ img {
   font-size: 18px;
   padding: 2px;
   margin-bottom: 10px;
+  z-index: 1;
+}
+
+
+.popup-container {
+  border: 2px solid;
+  border-bottom-color: #535353;
+  border-right-color: #535353;
+  border-left-color: #dbdbdb;
+  border-top-color: #dbdbdb;
+  background-color: #bfbfbf;
+  background-color: #bfbfbf;
+  width: 100%;
+  font-size: 18px;
+  z-index: 1;
 }
 
 .container-inner {
@@ -335,6 +350,25 @@ img {
   background-color: #fff;
   padding: 10px;
   overflow-y: scroll;
+  z-index: 2;
+}
+
+.popup-inner {
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: pxsans;
+  font-size: 9px;
+  min-height: 40px;
+  background-color: #bfbfbf;
+  max-height: 315px;
+  border-bottom-color: #c7c7c7;
+  border-right-color: #c7c7c7;
+  border-left-color: #808080;
+  border-top-color: #808080;
+  padding: 10px;
+  z-index: 2;
 }
 
 .toolbar {
@@ -423,6 +457,17 @@ tr:active {
   align-content: center;
 }
 
+
+.popup-title {
+  background-color: navy;
+  padding: 2px 4px 3px 4px;
+  position: relative;
+  display: flex;
+  align-content: center;
+}
+
+
+
 button {
   border: 2px solid;
   border-bottom-color: #444;
@@ -437,6 +482,22 @@ button {
   height: 14px;
   width: 14px;
   top: 2px;
+}
+
+.alert-button{
+  border: 2px solid;
+  border-bottom-color: #444;
+  border-right-color: #444;
+  border-left-color: #a6a6a6;
+  border-top-color: #a6a6a6;
+  background-color: #bfbfbf;
+  font-size: 10px;
+  line-height: 0;
+  position: static;
+  padding: 1px;
+  height: 25px;
+  width: 65px;
+ margin-top: 25px;
 }
 
 button:active {
@@ -478,6 +539,53 @@ button.times {
   height: 25px;
   width: 50px;
 }
+
+/* -------------------Animations------------------------*/
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.popup {
+
+	display: flex;
+  position: fixed;
+  margin-left: 60px;
+  margin-top: -80px;
+	z-index: 3;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.notification {
+	width: 160px;
+	height: 100%;
+  box-sizing: border-box;
+  background-color: pink;
+  z-index: 3;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 3s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+
+
+
+
 
 @media screen and (min-width: 1024px) {
   .container {
