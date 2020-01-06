@@ -121,6 +121,7 @@ th {
   color: #fff;
   font-size: 20px;
   background-color: #008080;
+  cursor: default;
 
 
 }
@@ -134,6 +135,8 @@ td {
 
   font-size: 14px;
 }
+
+
 
 
 tr:nth-child(even) {
@@ -397,6 +400,8 @@ li {
 li:hover {
   background-color: turquoise;
   text-decoration: none;
+  cursor: pointer;
+
 }
 
 li:active {
@@ -408,6 +413,7 @@ li:active {
 tr:hover {
   background-color: turquoise;
   text-decoration: none;
+  cursor: pointer;
 }
 
 tr:active {
