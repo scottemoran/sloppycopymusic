@@ -121,7 +121,7 @@ th {
   color: #fff;
   font-size: 20px;
   background-color: #008080;
-  cursor: default;
+  cursor: text;
 
 
 }
@@ -420,6 +420,7 @@ tr:active {
   background-color: #232323;
   color: turquoise;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .icon {
