@@ -283,7 +283,10 @@ img {
 
 
 .past{
-  text-decoration: line-through;
+  background-color: #232323;
+  color: #eeeeee;
+  
+
 }
 
 
@@ -408,6 +411,12 @@ li:active {
   background-color: #232323;
   color: turquoise;
   text-decoration: none;
+}
+
+tr.past{
+  background-color: #232323;
+  color: #eeeeee;
+
 }
 
 tr:hover {
