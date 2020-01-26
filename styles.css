@@ -59,7 +59,6 @@ a:visited {
   font-size: 10px;
 }
 
-
 h1 {
   padding: 5px;
   font-size: 40px;
@@ -92,9 +91,8 @@ h4 {
 }
 
 h5 {
-
   font-size: 11px;
-  font-style:italic;
+  font-style: italic;
   color: blueviolet;
 }
 
@@ -106,7 +104,7 @@ table {
   border-collapse: collapse;
   width: 100%;
   border: 2px solid #008080;
-  box-shadow:1px 1px 4px #e2e2e2;
+  box-shadow: 1px 1px 4px #e2e2e2;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -122,22 +120,15 @@ th {
   font-size: 20px;
   background-color: #008080;
   cursor: text;
-
-
 }
 td {
   text-align: left;
   padding: 8px;
 }
 
-
 .showstable {
-
   font-size: 14px;
 }
-
-
-
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
@@ -268,27 +259,19 @@ section {
 }
 
 .about-pic {
-margin: 10px;
-  box-shadow: 0 8px 9px #232323
-
-
+  margin: 10px;
+  box-shadow: 0 8px 9px #232323;
 }
-
 
 img {
   max-width: 100%;
   max-height: 100%;
-  
 }
 
-
-.past{
+.past {
   background-color: #232323;
   color: #eeeeee;
-  
-
 }
-
 
 /* ----------------------- Word Art Styling------------------------*/
 
@@ -328,7 +311,6 @@ img {
   margin-bottom: 10px;
   z-index: 1;
 }
-
 
 .popup-container {
   border: 2px solid;
@@ -404,7 +386,6 @@ li:hover {
   background-color: turquoise;
   text-decoration: none;
   cursor: pointer;
-
 }
 
 li:active {
@@ -413,10 +394,9 @@ li:active {
   text-decoration: none;
 }
 
-tr.past{
+tr.past {
   background-color: #232323;
   color: #eeeeee;
-
 }
 
 tr:hover {
@@ -473,7 +453,6 @@ tr:active {
   align-content: center;
 }
 
-
 .popup-title {
   background-color: navy;
   padding: 2px 4px 3px 4px;
@@ -481,8 +460,6 @@ tr:active {
   display: flex;
   align-content: center;
 }
-
-
 
 button {
   border: 2px solid;
@@ -500,7 +477,7 @@ button {
   top: 2px;
 }
 
-.alert-button{
+.alert-button {
   border: 2px solid;
   border-bottom-color: #444;
   border-right-color: #444;
@@ -513,7 +490,7 @@ button {
   padding: 1px;
   height: 25px;
   width: 65px;
- margin-top: 25px;
+  margin-top: 25px;
 }
 
 button:active {
@@ -559,49 +536,19 @@ button.times {
 /* -------------------Animations------------------------*/
 
 @keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-20px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
 }
-
-.popup {
-
-	display: flex;
-  position: fixed;
-  margin-left: 60px;
-  margin-top: -80px;
-	z-index: 3;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.notification {
-	width: 160px;
-	height: 100%;
-  box-sizing: border-box;
-  background-color: pink;
-  z-index: 3;
-	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-	transform: translatey(0px);
-	animation: float 3s ease-in-out infinite;
-	img { width: 100%; height: auto; }
-}
-
-
-
-
-
 
 @media screen and (min-width: 1024px) {
   .container {
@@ -614,9 +561,7 @@ button.times {
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1023px) {
-  
   .container {
     width: 75%;
   }
@@ -627,11 +572,7 @@ button.times {
   }
 }
 
-
-
-
 @media (min-width: 600px) and (max-width: 767px) {
-  
   .container {
     width: 70%;
   }
@@ -641,11 +582,3 @@ button.times {
     max-height: 350px;
   }
 }
-}
-
-
-
-
-
-
-
