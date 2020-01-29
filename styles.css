@@ -413,13 +413,17 @@ tr:active {
 }
 
 .icon {
-  margin-right: 9px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
 }
 
 .icon-footer {
-  margin-right: 8px;
-  height: 20px;
-  margin-left: 1px;
+  height: 15px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  display: block;
 }
 
 .statusbar {
