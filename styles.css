@@ -103,7 +103,7 @@ p {
 table {
   border-collapse: collapse;
   width: 100%;
-  border: 2px solid #008080;
+  border: 2px solid #000000;
   box-shadow: 1px 1px 4px #e2e2e2;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -118,7 +118,7 @@ th {
   padding: 8px;
   color: #fff;
   font-size: 20px;
-  background-color: #00DD00;
+  background-color: #222222;
   cursor: text;
 }
 td {
@@ -380,35 +380,37 @@ li {
   text-decoration: none;
   font-family: pxsans;
   font-size: 11px;
+  color:#00dd00;
 }
 
 li:hover {
-  background-color: green;
+  background-color: #FFFFFF;
   text-decoration: none;
   cursor: pointer;
+  color: black;
 }
 
 li:active {
-  background-color: #232323;
-  color: turquoise;
+  background-color: #000000;
+  color: #00dd00;
   text-decoration: none;
   color: #00DD00;
 }
 
 tr.past {
-  background-color: #232323;
+  background-color: #000000;
   color: #eeeeee;
 }
 
 tr:hover {
-  background-color: turquoise;
+  background-color: #00DD00;
   text-decoration: none;
   cursor: pointer;
 }
 
 tr:active {
   background-color: #232323;
-  color: turquoise;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -451,7 +453,7 @@ tr:active {
 }
 
 .title {
-  background-color: #00DD00;
+  background-color: navy;
   padding: 2px 4px 3px 4px;
   position: relative;
   display: flex;
