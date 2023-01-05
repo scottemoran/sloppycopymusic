@@ -1,5 +1,5 @@
 html {
-  background-image: linear-gradient(#000000, pink);
+  background-image: linear-gradient(#000000, red);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -62,11 +62,11 @@ a:visited {
 h1 {
   padding: 5px;
   font-size: 40px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times;
   text-decoration: none;
-  text-shadow: 2px 2px 8px pink;
+  text-shadow: 2px 2px 8px white;
   font-style: italic;
-  color: #fff;
+  color: #2DE52D;
   letter-spacing: 3px;
   margin-bottom: 5px;
 }
@@ -450,7 +450,7 @@ tr:active {
 }
 
 .title {
-  background-color: navy;
+  background-color: #2DE52D;
   padding: 2px 4px 3px 4px;
   position: relative;
   display: flex;
