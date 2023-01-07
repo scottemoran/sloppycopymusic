@@ -1,149 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144464692-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <title>XP.css example</title>
+    <meta charset="UTF-8" />
 
-  gtag('config', 'UA-144464692-1');
-</script>
 
-    <!--
-     
-      Sloppy Copy
+    <!-- Windows XP Theme (include only one theme at a time) -->
+    <link rel="stylesheet" href="https://unpkg.com/xp.css" />
 
-      Filename: index.html
-   -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>Sloppy Copy Music</title>
+        <!-- Customized Theme -->
+    <link rel="stylesheet" href="styles.css" /> 
 
-    <link rel="stylesheet" href="styles.css" />
- 
 
-    <script src="modernizr.custom.05819.js"></script>
-    <script type="text/javascript">
-      window.onload = function () {
-          DisplayCurrentTime();
-      };
-      function DisplayCurrentTime() {
-          var date = new Date();
-          var hours = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
-          var am_pm = date.getHours() >= 12 ? "PM" : "AM";
-          hours = hours < 10 ? "0" + hours : hours;
-          var minutes = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
-          var seconds = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
-          time = hours + ":" + minutes  + " " + am_pm;
-          var lblTime = document.getElementById("lblTime");
-          lblTime.innerHTML = time;
-      };
-  </script>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
-    />
   </head>
 
   <body>
-    <div>
 
-      
-        <h1><a href="index.html"><img style="margin:25px;" src="images/sloppy-copy-doodle.png"></a></h1>
-      
-    
-
-    <section>
-
-  
-
-
-      <!--Windows 95 Container-->
-
-      <div class="container">
-        <div class="title">
-          <div>
-            <button class="minimize"><span>🗕</span></button>
-            <button class="expand"><span>🗖</span></button>
-            <a href="lookwhatyoudid.html"><button class="times"><span >🗙</span></button></a>
-          </div>
-          <h3>
-            SloppyCopy_music
-          </h3>
-        </div>
-        <ul class="toolbar">
-            <a href="index.html"><li class="active"><u>H</u>ome</li></a>
-            <a href="about.html"><li><u>A</u>bout</li></a>
-            <a href="shows.html"><li><u>S</u>hows</li></a>
-            <a href="music.html"><li><u>M</u>usic</li></a>
-            <a href="contact.html"><li ><u>C</u>ontact</li></a>
-        </ul>
-        <div class="container-inner">
-          <ul class="icons">
-            <a href="about.html"><li><img class="icon" src="images/paper-icon.png"> &nbsp About Us</li></a>
-            <a href="shows.html"><li><img class="icon" src="images/blocks-icon.png">&nbsp Shows</li></a>
-            <a href="music.html"><li><img class="icon" src="images/cd-icon.png"> &nbsp Music</li></a>
-            <a href="contact.html"><li><img class="icon" src="images/fax-icon.png"> &nbsp Contact & Info</li></a>
-</ul>
-
-<div class="social-buttons" style="text-align: center; display: flex; max-width: 500px ">
-  <a style="margin-right: 15px;"href="https://open.spotify.com/artist/1ezWrgFkqDq0VjgUqYxGLG"> 
-    <img class="icon" src="images/folder-icon.png">
-    <span class="icon-footer">Spotify</span></a>
-
-
-    <a style="margin-right: 25px;"href="https://soundcloud.com/bunkbeds-band"> 
-      <img class="icon" src="images/folder-icon.png">
-      <span class="icon-footer">SoundCloud</span></a>
-
-  <a style="margin-right: 5px;" href="https://bunkbedsband.bandcamp.com/"> 
-    <img class="icon" src="images/folder-icon.png">
-    <span class="icon-footer">bandcamp</span>
-  </a></div>
-
-<div class="social-buttons" style="text-align:center;max-width: 500px; margin-top:12px;">
-
-
-   <a style="margin-right: 35px;" href="https://www.instagram.com/bunkbedsband/"> 
-    <img class="icon" src="images/folder-icon.png">
-    <span class="icon-footer">Instagram</span></a>
-  
-
-  <a href="https://www.facebook.com/bunkbedsband/">  
-    <img class="icon" src="images/folder-icon.png">
-    <span class="icon-footer">Facebook</span></a>
-            </div>
-
-        </div>
-        <div class="statusbar">
-          <div>9 object(s)</div>
-          
-        </div>
-      </div>
-    </section>
+<div class="flex-container">
+<div class="center"><img src="images/sloppy-copy-doodle.png" width="70%"> </div>
 </div>
 
-
-    
-    <footer>
-      <div >
-        <div>
-            <a href="enjoy.html"><button class="start"><img class="icon-footer" src="images/folder-icon.png"><span>&nbsp Start</span></button></a>
-  
-          <a href="games.html"><button class="game"><img class="icon-footer" src="images/globe-icon.png"><span>&nbsp Games</span></button></a>
-  
-           <a href="lookwhatyoudid.html"><button class="calculator"><img class="icon-footer" src="images/tree-icon.png"><span>&nbsp Calculator</span></button></a>
-        </div>
-        </div>
-  
-  
-  <div class="statusbar-footer">
-    <span id="lblTime"></span>
+<div class="flex-container">
+<div class="window" style="width: 500px">
+  <div class="title-bar">
+    <div class="title-bar-text">sloppy_copy.exe</div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
     </div>
   </div>
-  </footer>
+  <div class="window-body">
 
+    <!-- Tab List -->
+    <menu role="tablist">
+      <button aria-selected="true" aria-controls="about">About</button>
+      <button aria-controls="music">Music</button>
+      <button aria-controls="shows">Shows</button>
+      <button aria-controls="booking">Booking</button>
+    </menu>
+
+    <!-- Tab 1 Content -->
+    <article role="tabpanel" id="about">
+        <p>Set your listening preferences</p>
+        <fieldset>
+          <legend>Band lineup</legend>
+          <div class="field-row">
+            <input id="radio29" type="radio" name="fieldset-example2">
+            <label for="radio29">David Byers</label>
+          </div>
+          <div class="field-row">
+            <input id="radio30" type="radio" name="fieldset-example2">
+            <label for="radio30">Seth Butts</label>
+          </div>
+          <div class="field-row">
+            <input id="radio31" type="radio" name="fieldset-example2">
+            <label for="radio31">Kyle Trittipo</label>
+          </div>
+          <div class="field-row">
+            <input id="radio32" type="radio" name="fieldset-example2">
+            <label for="radio32">Scott Moran</label>
+          </div>
+        </fieldset>
+        <section class="field-row">
+          <button>Check this out...</button>
+          <label>testing 1 2 3</label>
+        </section>
+      </article>
+
+ <!-- Tab 2 Content -->
+    <article role="tabpanel" hidden id="music">
+      <img style="width: 100%" src="images/sloppy-copy-logo.png" />
+    </article>
+
+<!-- Tab 3 Content -->
+    <article role="tabpanel" hidden id="shows">
+
+    </article>
+
+<!-- Tab 4 Content -->
+    <article role="tabpanel" hidden id="booking">
+
+    </article>
+
+    <section class="field-row" style="justify-content: flex-end">
+      <button>OK</button>
+      <button>Cancel</button>
+    </section>
+  </div>
+</div>
+  <script src="script.js"></script>
   </body>
 </html>
