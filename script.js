@@ -39,3 +39,6 @@ function openTab(event, tab) {
   );
   article.removeAttribute("hidden");
 }
+
+
+
